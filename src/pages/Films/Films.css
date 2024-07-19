@@ -1,0 +1,63 @@
+.container_films_baner {
+  width: 1400px;
+  height: 800px;
+  background-image: url(../../assets/stuf/pages/films/fondo.jpg);
+  background-repeat: no-repeat;
+}
+.container_films {
+  width: 1400px;
+  margin-top: 80px;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.container_films_baner_BG {
+  width: 1000px;
+  height: 375px;
+  background-color: transparent;
+  background-image: url(/src/assets/stuf/pages/films/baner.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: -1;
+  transform: translate(0px, 257px);
+}
+
+.container_films_baner_BG h2 {
+  color: rgb(255, 192, 0);
+  text-transform: uppercase;
+  /*font-size: 60px;*/
+  text-align: left;
+  margin-left: 132px;
+}
+.container_films_baner_BG h3 {
+  color: white;
+  text-align: center;
+  text-align: left;
+  margin-left: 132px;
+}
+
+.container_film_card {
+  margin-bottom: 55px;
+  margin-right: 81px;
+  margin-left: 69px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.container_film_card img {
+  width: 372px;
+  height: 543px;
+  transition: transform 1s ease-out;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.container_film_card img:hover {
+  transform: scale(1.05);
+}
+.container_text_films {
+  margin-left: 15px;
+}

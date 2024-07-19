@@ -1,0 +1,10 @@
+.container_nav_ul_team {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  transform: translate(-159px, 87px);
+}
+.container_nav_ul_team li {
+  list-style-type: none;
+}
