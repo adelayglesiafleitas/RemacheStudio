@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  disenoGrafico,
-  baner,
-} from "../../components/data/pages/disenoGrafico.js";
+import {  disenoGrafico,  baner} from "../../components/data/pages/disenoGrafico.js";
 import Gallery from "../tools/Gallery/Gallery.jsx";
 import "./DisenoGrafico.css";
 import LazyLoad from "react-lazy-load";
