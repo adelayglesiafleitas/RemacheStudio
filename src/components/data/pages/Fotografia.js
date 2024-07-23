@@ -65,6 +65,6 @@ export let fotografia = [
   },
 ];
 export let baner = {
-  title: "NUESTRO ESTUDIO FOTOGÁFICO",
+  title: "ESTUDIO FOTOGÁFICO",
   text: "También realizamos trabajos de fotografía en la conformación de catálogos de artistas. Incursionamos en el fascinante mundo de la moda y dejamos inmortalizados, a través de la fotografía, momentos únicos del teatro y la danza.",
 };

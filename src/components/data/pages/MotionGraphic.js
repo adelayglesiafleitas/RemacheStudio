@@ -39,5 +39,5 @@ export let motiongGaphic = [
 ];
 export let baner = {
   title: "GRÁFICAS EN ACCIÓN",
-  text: "Dentro del mundo del motion graphic, REMACHESTUDIO desarrolla una amplia línea de proyectos, vistiendo con nuestros diseños, a los más importantes canales y programas de la Televisión Nacional. También en esta especialidad realizamos videos propiamente publicitarios a productos, y diseñamos animaciones para pantallas escenográficas de conciertos y espectáculos.",
+  text: "REMACHESTUDIO desarrolla una amplia línea de proyectos, vistiendo con nuestros diseños, a los más importantes canales y programas de la Televisión Nacional. También realizamos videos propiamente publicitarios a productos, y diseñamos animaciones para pantallas escenográficas de conciertos y espectáculos.",
 };

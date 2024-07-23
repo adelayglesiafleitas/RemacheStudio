@@ -7,7 +7,7 @@ import trabajos3d from "../../assets/stuf/main/trabajos/trabajos_3d.png";
 
 export let datos = [
   {
-    type: "Peliculas",
+    type: "Películas",
     name: "Fenomenos Naturales",
     imagen: peliculas,
     to: "films",
@@ -15,7 +15,7 @@ export let datos = [
   },
   {
     type: "Publicidad",
-    name: "Tabacos Empatia",
+    name: "Tabacos Empatía",
     imagen: publisidad,
     to: "publicidad",
     id: 2,
@@ -28,14 +28,14 @@ export let datos = [
     id: 3,
   },
   {
-    type: "Fotografia",
+    type: "Fotografía",
     name: "Dador",
     imagen: fotografia,
     to: "fotografia",
     id: 4,
   },
   {
-    type: "Diseño Grafico",
+    type: "Diseño Gráfico",
     name: "Galletas Carolina",
     imagen: disenoGrafico,
     to: "disenoGrafico",

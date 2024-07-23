@@ -12,11 +12,13 @@ function Footer() {
           <LazyLoad>
             <img src={Logo} alt="imagen del logo de remache" />
           </LazyLoad>
-          <p>Imagen VIdeo Post 3D</p>
+          <p className="encode_sans_condensed_bold">Imagen VIdeo Post 3D</p>
         </div>
-        <div className="container_info_2">
-          <p>remachestudio2009@gmail.com</p>
-          <p>+53 5344 7436</p>
+        <div className=" container_info_2">
+          <p className="encode_sans_condensed_bold">
+            remachestudio2009@gmail.com
+          </p>
+          <p className="encode_sans_condensed_bold">+53 5344 7436</p>
         </div>
       </section>
       <section className="container_contac">

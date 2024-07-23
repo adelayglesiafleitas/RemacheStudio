@@ -21,8 +21,8 @@ function Films() {
     <main>
       <div className="container_films_baner ">
         <div className="container_films_baner_BG">
-          <h2 className="open_sans_600">{baner.title}</h2>
-          <h3 className="open_sans_200">{baner.text}</h3>
+          <h2 className="encode_sans_condensed_bold">{baner.title}</h2>
+          <h3 className="encode_sans_condensed_medium">{baner.text}</h3>
         </div>
       </div>
 
@@ -32,7 +32,7 @@ function Films() {
         <div className="container_films">
           {films.map((item) => (
             <div className="container_film_card " key={item.id}>
-              <LazyLoad >
+              <LazyLoad>
                 <img
                   src={item.image}
                   alt={`imagen de la pelicula ${item.name}`}
@@ -41,13 +41,15 @@ function Films() {
               </LazyLoad>
 
               <div className="container_text_films">
-                <p className="open_sans_600">{item.name}</p>
+                <p className="encode_sans_condensed_bold film_title">
+                  {item.name}
+                </p>
                 {item.dir.map((item, index) => (
-                  <p className="open_sans_200" key={index}>
+                  <p className=" encode_sans_condensed_medium film_dir" key={index}>
                     {item}
                   </p>
                 ))}
-                <p className="open_sans_200">{item.time}</p>
+                <p className="encode_sans_condensed_medium film_dir">{item.time}</p>
               </div>
             </div>
           ))}

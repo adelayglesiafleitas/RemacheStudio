@@ -24,9 +24,9 @@ function Fotografia() {
       ) : (
         <>
           <div className="container_Fotografia_baner ">
-            <div className="container_Fotografia_baner_BG">
-              <h2 className="open_sans_600">{baner.title}</h2>
-              <h3 className="open_sans_200">{baner.text}</h3>
+            <div className="container_films_baner_BG">
+              <h2 className="encode_sans_condensed_bold">{baner.title}</h2>
+              <h3 className="encode_sans_condensed_medium">{baner.text}</h3>
             </div>
           </div>
           <div className="container_Fotografia">
@@ -40,9 +40,13 @@ function Fotografia() {
                   />
                 </LazyLoad>
 
-                <div className="container_text_Fotografia">
-                  <p className="open_sans_600">{item.name}</p>
-                  <p className="open_sans_600">{item.text}</p>
+                <div className="container_text_films">
+                  <p className="encode_sans_condensed_bold film_title">
+                    {item.name}
+                  </p>
+                  <p className="encode_sans_condensed_medium film_dir">
+                    {item.text}
+                  </p>
                 </div>
               </div>
             ))}

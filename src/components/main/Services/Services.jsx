@@ -8,7 +8,7 @@ function Services({ setService, setServiceSelect }) {
   };
   return (
     <section className="container_services " id="Servicios">
-      <p className="encode-sans-condensed-black services_title animate__animated animate__bounceIn">
+      <p className="encode_sans_condensed_bold services_title animate__animated animate__bounceIn">
         Servicios
       </p>
       <div className="container_services_cards ">
@@ -25,10 +25,10 @@ function Services({ setService, setServiceSelect }) {
               />
             </LazyLoad>
             <div className="container_services_text">
-              <p className="encode-sans-condensed-black services_name">
+              <p className="encode_sans_condensed_bold services_name">
                 {item.name}
               </p>
-              <p className="encode-sans-condensed-black services_text">
+              <p className="encode_sans_condensed_medium services_text">
                 {item.text1}
               </p>
             </div>

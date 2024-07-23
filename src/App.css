@@ -16,7 +16,7 @@ body {
   align-items: center;
   color: white;
 }
-
+/*
 .pt-sans-regular {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
@@ -134,6 +134,47 @@ body {
 .encode-sans-condensed-black {
   font-family: "Encode Sans Condensed", sans-serif;
   font-weight: 900;
+  font-style: normal;
+}
+
+.encode_sans_condensed_light {
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.encode_sans_condensed_regular {
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.encode_sans_condensed_semibold {
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.encode_sans_condensed_bold {
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.encode_sans_condensedregular {
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+/**/
+.encode_sans_condensed_medium {
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.encode_sans_condensed_bold {
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 

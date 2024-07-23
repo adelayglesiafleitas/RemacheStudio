@@ -1,4 +1,5 @@
 import "./Proyectos3d.css";
+import "../Films/Films.css";
 import Player from "../tools/Player/Player.jsx";
 import { proyectos3d, baner } from "../../components/data/pages/Proyectos3d.js";
 import { useEffect, useState } from "react";
@@ -20,16 +21,16 @@ function Proyectos3d() {
   return (
     <main>
       <div className="container_proyectos3d_baner ">
-        <div className="container_proyectos3d_baner_BG">
-          <h2 className="open_sans_600">{baner.title}</h2>
-          <h3 className="open_sans_200">{baner.text}</h3>
+        <div className="container_films_baner_BG">
+          <h2 className="encode_sans_condensed_bold">{baner.title}</h2>
+          <h3 className="encode_sans_condensed_medium">{baner.text}</h3>
         </div>
       </div>
 
       {displayPlayer ? (
         <Player url={Url} setDisplayPlayer={setDisplayPlayer} />
       ) : (
-        <div className="container_proyectos3d">
+        <div className="container_films">
           {proyectos3d.map((item) => (
             <div className="container_film_card " key={item.id}>
               <LazyLoad>
@@ -40,14 +41,21 @@ function Proyectos3d() {
                 />
               </LazyLoad>
 
-              <div className="container_text_proyectos3d">
-                <p className="open_sans_600">{item.name}</p>
+              <div className="container_text_films">
+                <p className="encode_sans_condensed_bold film_title">
+                  {item.name}
+                </p>
                 {item.dir.map((item, index) => (
-                  <p className="open_sans_200" key={index}>
+                  <p
+                    className="encode_sans_condensed_medium film_dir"
+                    key={index}
+                  >
                     {item}
                   </p>
                 ))}
-                <p className="open_sans_200">{item.time}</p>
+                <p className="encode_sans_condensed_medium film_dir">
+                  {item.time}
+                </p>
               </div>
             </div>
           ))}

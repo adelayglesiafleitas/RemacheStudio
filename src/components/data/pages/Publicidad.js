@@ -66,6 +66,6 @@ export let publicidad = [
   },
 ];
 export let baner = {
-  title: "NOSOTROS EN LA PUBLICIDAD",
+  title: "EN LA PUBLICIDAD",
   text: "Es en este campo del audiovisual que surge y se desarrolla REMACHESTUDIO en el año 2009. Estos proyectos los asumimos desde la conceptualización de los mismos, realizando el diseño, la producción y post producción de videos musicales, spot televisivos y materiales publicitarios de productos y servicios.",
 };

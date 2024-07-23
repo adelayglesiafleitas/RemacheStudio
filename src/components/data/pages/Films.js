@@ -18,7 +18,7 @@ import ca from "../../../assets/stuf/pages/films/FOTOS AFICHES PELICULAS/PELICUL
 export let films = [
   {
     name: "FENÓMENOS NATURALES",
-    dir: ["Dir. Marcos A. Díaz Sosa"],
+    dir: ["Dir: Marcos Díaz"],
     time: "2024 – 80 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: FN,
@@ -26,7 +26,7 @@ export let films = [
   },
   {
     name: "UNA NOCHE CON LOS ROLLING STONES",
-    dir: ["Dir. Patricia Ramos"],
+    dir: ["Dir: Patricia Ramos"],
     time: "2023 – 92 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: unr,
@@ -35,7 +35,7 @@ export let films = [
   {
     name: "AISLADOS",
     dir: [
-      "Dir. Maritza Ceballos / Sailín Carbonell / Joe Pérez / Zenia Veigas",
+      "Dir: Maritza Ceballos / Sailín Carbonell / Joe Pérez / Zenia Veigas",
     ],
     time: "2022 – 108 min",
     url: "https://youtu.be/kV90SSCeBvs",
@@ -44,7 +44,7 @@ export let films = [
   },
   {
     name: "LA MUJER SALVAJE",
-    dir: ["Dir. Alán González"],
+    dir: ["Dir: Alán González"],
     time: "2022 – 93 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: lms,
@@ -52,7 +52,7 @@ export let films = [
   },
   {
     name: "VICENTA B",
-    dir: ["Dir. Carlos Lechuga"],
+    dir: ["Dir: Carlos Lechuga"],
     time: "2021 – 75 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: vb,
@@ -61,7 +61,7 @@ export let films = [
   {
     name: "CUENTOS DE UN DÍA MÁS",
     dir: [
-      "Dir. Rosa María Rodríguez / Alán González / Carolina Fernández- Vega / Yoel Infante / Katherine T. Gavilán  y  Sheila Pool / Eduardo Eimil",
+      "Dir: Rosa María Rodríguez / Alán González / Carolina Fernández- Vega / Yoel Infante / Katherine T. Gavilán  y  Sheila Pool / Eduardo Eimil",
     ],
     time: "2021",
     url: "https://youtu.be/kV90SSCeBvs",
@@ -70,7 +70,7 @@ export let films = [
   },
   {
     name: "HABANA SELFIE",
-    dir: ["Dir. Arturo Santana"],
+    dir: ["Dir: Arturo Santana"],
     time: "2019 -  90 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: hs,
@@ -78,15 +78,15 @@ export let films = [
   },
   {
     name: "EL MAYOR",
-    dir: ["Dir. RIGOBERTO LÓPEZ"],
-    time: "2019– 112 MIN",
+    dir: ["Dir: Rigoberto López"],
+    time: "2019– 112 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: m,
     id: 7,
   },
   {
     name: "EL EXTRAORDINARIO VIAJE DE CELESTE GARCÍA",
-    dir: ["Dir. Arturo Infante"],
+    dir: ["Dir: Arturo Infante"],
     time: "2018 – 92 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: evc,
@@ -94,15 +94,15 @@ export let films = [
   },
   {
     name: "ESTEBAN",
-    dir: ["Dir. Jonal Cosculluela"],
-    time: "2017 – 91min",
+    dir: ["Dir: Jonal Cosculluela"],
+    time: "2017 – 91 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: e,
     id: 9,
   },
   {
     name: "SERGIO Y SERGUÉI",
-    dir: ["Dir. Ernesto Daranas"],
+    dir: ["Dir: Ernesto Daranas"],
     time: "2017 – 93 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: sys,
@@ -110,7 +110,7 @@ export let films = [
   },
   {
     name: "ÚLTIMOS DÍAS EN LA HABANA",
-    dir: ["Dir. Fernando Pérez"],
+    dir: ["Dir: Fernando Pérez"],
     time: "2016 – 82 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: udh,
@@ -118,15 +118,15 @@ export let films = [
   },
   {
     name: "BAILANDO CON MARGOT",
-    dir: ["Dir. Arturo Santana"],
-    time: "2016 -  112min",
+    dir: ["Dir: Arturo Santana"],
+    time: "2016 -  112 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: bcm,
     id: 12,
   },
   {
     name: "EL ACOMPAÑANTE",
-    dir: ["Dir. Pavel Girud"],
+    dir: ["Dir: Pavel Girud"],
     time: "2016 – 104 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: ea,
@@ -134,7 +134,7 @@ export let films = [
   },
   {
     name: "CUBA LIBRE",
-    dir: ["Dir. Jorge Luis Sánchez"],
+    dir: ["Dir: Jorge Luis Sánchez"],
     time: "2015 – 120 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: cb,
@@ -142,7 +142,7 @@ export let films = [
   },
   {
     name: "CABALLOS",
-    dir: ["Dir. Fabián Suárez"],
+    dir: ["Dir: Fabián Suárez"],
     time: "2015 – 95 min",
     url: "https://youtu.be/kV90SSCeBvs",
     image: ca,
@@ -150,7 +150,7 @@ export let films = [
   },
 ];
 export let baner = {
-  title: "REMACHESTUDIO EN EL CINE",
+  title: "REMACHE EN EL CINE",
   text: "Estamos vinculados a la industria cinematográfica desde el año 2014, realizando los efectos visuales en más de quince largometrajes,  dirigidos por importantes directores de la cinematografía cubana.",
 };
 hs;

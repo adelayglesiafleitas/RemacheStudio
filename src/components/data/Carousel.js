@@ -22,7 +22,7 @@ export { adelante, atras };
 export let Us = [
   {
     texto:
-      "Somos un pequeño Estudio especializado en la realización de efectos visuales, edición y colorimetría, diseño comunicacional, mographic y animación en 3d para proyectos audiovisuales, gráficos, artísticos y comunicacionales.",
+      "Somos un pequeño Estudio especializado en la realización de efectos visuales, edición y colorimetría, diseño comunicacional, mographic y animación en 3d para proyectos audiovisuales, gráficos, artísticos y comunicacionales. Con más de 15 años de experiencia en el mundo audiovisual, hemos logrado, con los resultados de nuestro trabajo, pocesionarnos como uno de los estudios de post producción más prestigiosos del país.",
     titulo: "QUIÉNES SOMOS",
     urlImagen: [
       QSomos1,

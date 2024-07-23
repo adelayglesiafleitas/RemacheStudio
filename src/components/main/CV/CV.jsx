@@ -14,7 +14,7 @@ function CV({ worker, setCV }) {
   return (
     <section className="container_CV  ">
       <div className="container_CV_left animate__animated animate__bounceInLeft ">
-        <h2 className="name_CV encode-sans-condensed-black ">
+        <h2 className=" encode_sans_condensed_bold  title_2 ">
           EQUIPO REMACHESTUDIO
         </h2>
         <LazyLoad>
@@ -25,16 +25,16 @@ function CV({ worker, setCV }) {
         </LazyLoad>
       </div>
       <div className="container_CV_rigth animate__animated animate__bounceInRight">
-        <p className="container_CV_rigth_name  encode-sans-condensed-black  ">
+        <p className="container_CV_rigth_name  encode_sans_condensed_bold  ">
           {Team[worker].name}
         </p>
-        <p className="container_CV_rigth_number  encode-sans-condensed-medium">
+        <p className="container_CV_rigth_number encode_sans_condensed_medium">
           {Team[worker].number}
         </p>
-        <p className="container_CV_rigth_mail  encode-sans-condensed-black">
+        <p className="container_CV_rigth_mail  encode_sans_condensed_medium">
           {Team[worker].correo}
         </p>
-        <p className="container_CV_rigth_CV  encode-sans-condensed-black">
+        <p className="container_CV_rigth_CV  encode_sans_condensed_medium">
           {Team[worker].cv}
         </p>
 

@@ -8,8 +8,8 @@ function Works({ setDropdownVisibleTeam }) {
       onMouseLeave={() => setDropdownVisibleTeam(false)}
     >
       {Team.map((item, index) => (
-        <li key={item.id}>
-          <a>{item.name}</a>
+        <li className="encode_sans_condensed_bold" key={item.id}>
+          <a className="encode_sans_condensed_bold">{item.name}</a>
         </li>
       ))}
     </ul>

@@ -56,10 +56,10 @@ function Header() {
           <div className="menu">
             <ul>
               {headerObject.map((item) => (
-                <li className="shadowText " key={item.id}>
+                <li key={item.id}>
                   <Link
+                    className="encode_sans_condensed_medium"
                     to={`${item.to}`}
-                    className="open_sans_400"
                     onClick={() => handlePos(item.type)}
                     onMouseEnter={() => handleMouseEnter(item.type)}
                     onMouseLeave={handleMouseLeave}

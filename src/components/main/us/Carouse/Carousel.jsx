@@ -54,9 +54,13 @@ const Carousel = () => {
           </LazyLoad>
         </div>
       }
-      <div className="container_us_texto">
-        <h2 className="open_sans_600">{Us[currentIndex].titulo}</h2>
-        <h3 className="open_sans_200">{Us[currentIndex].texto}</h3>
+      <div className="container_Carousel_texto">
+        <h2 className="encode_sans_condensed_bold">
+          {Us[currentIndex].titulo}
+        </h2>
+        <h3 className="encode_sans_condensed_medium ">
+          {Us[currentIndex].texto}
+        </h3>
       </div>
       <div className="container_button_point">
         <button

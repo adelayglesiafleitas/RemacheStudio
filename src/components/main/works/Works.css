@@ -20,7 +20,7 @@
   height: 544px;
   margin: 47px;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 30px;
   transform-style: preserve-3d;
   cursor: pointer;
 }
@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: translateY(-220px);
+  transform: translateY(-218px);
   margin-left: 15px;
   width: 343px;
   height: 183px;
@@ -48,20 +48,18 @@
 .container_peliculas_texto h2 {
   color: rgb(255, 192, 0);
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 62px;
+  line-height: 1;
   text-align: left;
 }
 
 .container_peliculas_texto h3 {
+  margin-top: 5px;
   color: white;
-  text-transform: uppercase;
-  font-size: 22px;
+  font-style: italic;
+  font-size: 25px;
   text-align: left;
-  font-style: normal;
   text-align: left;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .animate__animated animate__backInLeft {
@@ -81,10 +79,10 @@
   transition: transform 1s ease-out;
 }
 .button_Works_Next {
-  transform: translate(1302px, -372px);
+  transform: translate(1302px, -403px);
 }
 .button_Works_Back {
-  transform: translate(-2px, -372px);
+  transform: translate(-2px, -403px);
 }
 
 .container_button button_Next :hover {

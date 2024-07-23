@@ -21,7 +21,6 @@
 .services_title {
   color: rgb(255, 192, 0);
   font-size: 30px;
-  font-weight: 500;
   text-transform: uppercase;
 }
 .container_services_text {
@@ -29,14 +28,12 @@
 }
 .services_name {
   color: rgb(255, 192, 0);
-  font-size: 27px;
-  font-weight: 900;
+  font-size: 31px;
   text-transform: uppercase;
 }
 .services_text {
   color: white;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 18px;
   font-style: italic;
   width: 280px;
 }

@@ -46,6 +46,6 @@ export let disenoGrafico = [
   },
 ];
 export let baner = {
-  title: "LA GRÁFICA DE REMACHESTUDIO",
+  title: "GRÁFICA REMACHE",
   text: "En el mundo de la gráfica REMACHESTUDIO se destaca en los  trabajos de diseños de identidades corporativas y de productos. Realizamos, además, diseños editoriales,  diseños de carteles y portadas discográficas.",
 };

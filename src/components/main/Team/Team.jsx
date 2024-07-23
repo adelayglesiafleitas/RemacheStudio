@@ -11,7 +11,7 @@ function Crew({ setCV, setWorker }) {
   return (
     <section className="container_crew " id="Equipo">
       <div className="container_title">
-        <h2 className="encode-sans-condensed-black title_2">
+        <h2 className="encode_sans_condensed_bold title_2">
           EQUIPO REMACHESTUDIO
         </h2>
       </div>
@@ -31,13 +31,11 @@ function Crew({ setCV, setWorker }) {
                 />
               </LazyLoad>
             </div>
-            <div>
-              <h3 className="encode-sans-condensed-black title_2">
+            <div className="team_container_text">
+              <h3 className="encode_sans_condensed_bold title_3">
                 {item.name}
               </h3>
-              <h4 className="encode-sans-condensed-regular ">
-                {item.position}
-              </h4>
+              <h4 className="encode_sans_condensed_medium ">{item.position}</h4>
             </div>
           </div>
         ))}

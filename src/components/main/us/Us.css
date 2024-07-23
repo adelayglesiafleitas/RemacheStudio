@@ -24,8 +24,7 @@
   transform: translateY(23px);
 }
 .container_us_texto h3 {
-  color: white;
-  text-transform: uppercase;
+  color: white; 
   font-size: 22px;
   text-align: center;
   font-style: italic;

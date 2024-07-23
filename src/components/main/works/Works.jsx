@@ -53,10 +53,10 @@ function Works() {
             </Link>
 
             <div className="container_peliculas_texto">
-              <h2 className=" animate__animated animate__backInLeft">
+              <h2 className=" encode_sans_condensed_bold animate__animated animate__backInLeft">
                 {item.type}
               </h2>
-              <h3 className=" animate__animated animate__backInLeft">
+              <h3 className=" encode_sans_condensed_medium animate__animated animate__backInLeft">
                 {item.name}
               </h3>
             </div>
