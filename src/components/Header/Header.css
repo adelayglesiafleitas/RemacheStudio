@@ -79,3 +79,15 @@ a:hover {
     transform: translateX(-42px);
   }
 }
+/*.................(max-width: 1290px)......................*/
+@media only screen and (max-width: 1290px) {
+  @media only screen and (max-width: 1290px) {
+    header {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .menu {
+    display: none;
+  }
+}

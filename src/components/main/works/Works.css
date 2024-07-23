@@ -129,3 +129,18 @@
     transform: translate(55px, -403px);
   }
 }
+
+/*.................(max-width: 1290px)......................*/
+@media only screen and (max-width: 1290px) {
+  @media only screen and (max-width: 1290px) {
+    .container_listTrabajos {
+      width: 1200px;
+    }
+  }
+  .button_Works_Next {
+    transform: translate(1204px, -403px);
+  }
+  .button_Works_Back {
+    transform: translate(101px, -403px);
+  }
+}
