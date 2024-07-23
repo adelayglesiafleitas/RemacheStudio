@@ -45,7 +45,6 @@ a:hover {
   transform: translateX(250px);
 }
 .menu li {
-
   font-size: 25px;
   margin: 8px;
 }
@@ -57,4 +56,26 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/*.................(max-width: 1390px)......................*/
+@media only screen and (max-width: 1390px) {
+  header {
+    width: 1300px; /* You might not need this if the header should adapt */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(50px);
+  }
+  .container_header {
+    justify-content: center;
+  }
+
+  .menu ul {
+    transform: translateX(60px);
+  }
+  .container_logo img {
+    transform: translateX(-42px);
+  }
 }

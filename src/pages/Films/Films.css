@@ -78,3 +78,19 @@ h3 {
   font-size: 25px;
   width: 219px;
 }
+@media only screen and (max-width: 1390px) {
+  /* You might not need this if the header should adapt */
+  .container_films_baner {
+    width: 1300px;
+  }
+  .container_films {
+    width: 1300px;
+    gap: 0px;
+  }
+  .film_title {
+    font-size: 34px;
+  }
+  .film_dir {
+    font-size: 20px;
+  }
+}

@@ -23,10 +23,10 @@ function TypeServices({ setService, serviceSelect }) {
         </LazyLoad>
       </div>
       <div className="container_type_services_rigth animate__animated animate__bounceInRight">
-        <p className="container_type_services_rigth_title">
+        <p className="encode_sans_condensed_bold services_name">
           {services[serviceSelect].name}
         </p>
-        <p className="container_type_services_rigth_text">
+        <p className="encode_sans_condensed_medium services_text">
           {services[serviceSelect].text2}
         </p>
         <button

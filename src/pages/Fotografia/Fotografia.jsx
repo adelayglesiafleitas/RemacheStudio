@@ -41,7 +41,7 @@ function Fotografia() {
                 </LazyLoad>
 
                 <div className="container_text_films">
-                  <p className="encode_sans_condensed_bold film_title">
+                  <p className="encode_sans_condensed_bold film_title name_container">
                     {item.name}
                   </p>
                   <p className="encode_sans_condensed_medium film_dir">

@@ -83,3 +83,13 @@
   display: flex;
   margin-left: 55px;
 }
+@media only screen and (max-width: 1390px) {
+  /* You might not need this if the header should adapt */
+
+  .container_CV {
+    width: 1300px;
+  }
+  .container_CV_rigth_button {
+    transform: translate(767px, -388px);
+  }
+}

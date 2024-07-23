@@ -47,3 +47,10 @@
 .container_service_card img:hover {
   transform: scale(1.2);
 }
+
+@media only screen and (max-width: 1390px) {
+  /* You might not need this if the header should adapt */
+  .container_services_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

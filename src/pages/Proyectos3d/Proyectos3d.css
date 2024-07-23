@@ -60,3 +60,9 @@
 .container_text_proyectos3d {
   margin-left: 15px;
 }
+@media only screen and (max-width: 1390px) {
+  /* You might not need this if the header should adapt */
+  .container_proyectos3d_baner {
+    width: 1300px;
+  }
+}

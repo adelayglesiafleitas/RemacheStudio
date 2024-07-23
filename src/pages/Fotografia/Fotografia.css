@@ -61,3 +61,19 @@
 .container_text_Fotografia {
   margin-left: 15px;
 }
+@media only screen and (max-width: 1390px) {
+  /* You might not need this if the header should adapt */
+  .container_Fotografia_baner {
+    width: 1300px;
+  }
+  .container_Fotografia_card {
+    margin-right: -45px;
+    margin-left: 40px;
+  }
+  .container_Fotografia {
+    width: 1300px;
+  }
+  .name_container {
+    width: 170px;
+  }
+}

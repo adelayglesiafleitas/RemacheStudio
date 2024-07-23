@@ -24,7 +24,7 @@
   transform: translateY(23px);
 }
 .container_us_texto h3 {
-  color: white; 
+  color: white;
   font-size: 22px;
   text-align: center;
   font-style: italic;
@@ -65,4 +65,13 @@
 
 .carousel .slide:first-child {
   display: block;
+}
+
+/*.................(max-width: 1390px)......................*/
+@media only screen and (max-width: 1390px) {
+  /* You might not need this if the header should adapt */
+  .container_us {
+    width: 1300px;
+    height: 800px;
+  }
 }

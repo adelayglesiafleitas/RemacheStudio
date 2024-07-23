@@ -73,3 +73,24 @@
 .title_3 {
   font-size: 27px;
 }
+/*.................(max-width: 1390px)......................*/
+@media only screen and (max-width: 1390px) {
+  .container_crew {
+    width: 1300px;
+  }
+  .container_listTeam {
+    gap: 7px;
+  }
+  .container_img {
+    width: 215px;
+  }
+  .container_info h3 {
+    width: 207px;
+  }
+  .title_3 {
+    font-size: 23px;
+  }
+  .container_info h4 {
+    font-size: 17px;
+  }
+}

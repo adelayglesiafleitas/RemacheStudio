@@ -137,6 +137,6 @@ export let services = [
       "Brindamos un servicio altamente creativo que influye en la estructura narrativa, el ritmo y la emoción del trabajo audiovisual.",
     image: SERVICIOS_12,
     icon: e,
-    id: 1,
+    id: 12,
   },
 ];

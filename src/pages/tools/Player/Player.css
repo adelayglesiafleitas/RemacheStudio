@@ -22,3 +22,9 @@
   transition: transform 0.4s ease-out;
   transform: translate(418px, -449px);
 }
+@media only screen and (max-width: 1390px) {
+  /* You might not need this if the header should adapt */
+  .play_bg_dark {
+    width: 1300px;
+  }
+}

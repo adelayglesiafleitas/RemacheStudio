@@ -11,3 +11,9 @@
   font-size: 46px;
   transform: translateY(-14px);
 }
+@media only screen and (max-width: 1390px) {
+  /* You might not need this if the header should adapt */
+  .container_motionGraphic_baner {
+    width: 1300px;
+  }
+}
