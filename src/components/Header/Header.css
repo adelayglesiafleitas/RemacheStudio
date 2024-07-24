@@ -1,7 +1,7 @@
 header {
   width: 1400px;
   height: 150px;
-  transform: translate(15px, 0px);
+  /*transform: translate(15px, 0px);*/
   background: rgba(0, 0, 0, 0.7);
   color: rgb(255, 192, 0);
   position: fixed;
