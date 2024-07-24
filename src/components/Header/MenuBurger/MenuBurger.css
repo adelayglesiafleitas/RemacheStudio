@@ -20,7 +20,7 @@
 .menu_burger ul {
   list-style-type: none;
   background: rgba(0, 0, 0, 0.7);
-  transform: translate(51px, 8px);
+  transform: translate(51px, 23px);
 }
 .menu_burger li {
   font-size: 25px;
@@ -36,24 +36,4 @@
 }
 .a_white hover {
   color: rgb(255, 192, 0);
-}
-
-/*.................(max-width: 1390px)......................*/
-@media only screen and (max-width: 1390px) {
-  .hamb_menu {
-    display: none;
-  }
-  .menu_burger {
-    display: none;
-  }
-}
-/*.................(max-width: 768px)......................*/
-
-@media only screen and (max-width: 768px) {
-  .hamb_menu {
-    display: inherit;
-  }
-  .menu_burger {
-    display: inherit;
-  }
 }

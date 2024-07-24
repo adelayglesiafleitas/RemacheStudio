@@ -109,38 +109,3 @@
   border: none;
   cursor: pointer;
 }
-
-/*.................(max-width: 1390px)......................*/
-@media only screen and (max-width: 1390px) {
-  /* You might not need this if the header should adapt */
-  .Trabajos {
-    width: 1400px;
-  }
-  .container_listTrabajos {
-    width: 1300px;
-  }
-  .container_peliculas_texto h2 {
-    font-size: 57px;
-  }
-  .button_Works_Next {
-    transform: translate(1250px, -403px);
-  }
-  .button_Works_Back {
-    transform: translate(55px, -403px);
-  }
-}
-
-/*.................(max-width: 1290px)......................*/
-@media only screen and (max-width: 1290px) {
-  @media only screen and (max-width: 1290px) {
-    .container_listTrabajos {
-      width: 1200px;
-    }
-  }
-  .button_Works_Next {
-    transform: translate(1204px, -403px);
-  }
-  .button_Works_Back {
-    transform: translate(101px, -403px);
-  }
-}

@@ -13,11 +13,11 @@ function Header() {
         setDisplayBurger={setDisplayBurger}
       />
 
-      <MenuBurger
+      {/*<MenuBurger
         headerObject={headerObject}
         setDisplayBurger={setDisplayBurger}
         displayBurger={displayBurger}
-      />
+      />*/}
     </header>
   );
 }

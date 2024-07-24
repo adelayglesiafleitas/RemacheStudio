@@ -122,13 +122,3 @@
   transform: translateY(-203px);
 }
 
-/*.................(max-width: 1390px)......................*/
-@media only screen and (max-width: 1390px) {
-  .button_Next {
-    transform: translate(1165px, -372px);
-    background-color: transparent;
-    border: none;
-    transition: transform 1s ease-out;
-  }
-}
-

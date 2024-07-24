@@ -32,13 +32,3 @@
 .container_type_services_left img {
   width: 510px;
 }
-@media only screen and (max-width: 1390px) {
-  /* You might not need this if the header should adapt */
-
-  .container_type_services {
-    width: 1300px;
-  }
-  .container_type_services_rigth_button {
-    transform: translate(715px, -328px);
-  }
-}

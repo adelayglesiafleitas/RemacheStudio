@@ -11,12 +11,7 @@ import Logo from "../../../assets/stuf/logos/REMACHEsudio LOGO Blanco.png";
 function HeaderNormal({ displayBurger, setDisplayBurger }) {
   return (
     <div className="container_header">
-      <div
-        style={{
-          transform: !displayBurger ? "translateX(-33px)" : "translateX(-7px)",
-        }}
-        className="container_logo"
-      >
+      <div className="container_logo">
         <LazyLoad>
           <img src={Logo} alt="logo_Remache" />
         </LazyLoad>

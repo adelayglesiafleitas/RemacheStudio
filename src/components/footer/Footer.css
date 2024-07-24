@@ -37,22 +37,3 @@
   transform: translatey(-5px);
   font-size: 22px;
 }
-@media only screen and (max-width: 1390px) {
-  /* You might not need this if the header should adapt */
-  .container_footer {
-    width: 1300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    transform: translateX(50px);
-  }
-}
-/*.................(max-width: 1290px)......................*/
-@media only screen and (max-width: 1290px) {
-  @media only screen and (max-width: 1290px) {
-    .container_footer {
-      width: 100%;
-    }
-  }
-}
