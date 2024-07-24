@@ -48,10 +48,7 @@ a:hover {
   font-size: 25px;
   margin: 8px;
 }
-.container_logo img {
-  transform: translateX(55px);
-  /* margin-left: 55px;*/
-}
+
 .container_nav_ul {
   display: flex;
   flex-direction: column;
@@ -61,7 +58,7 @@ a:hover {
 /*.................(max-width: 1390px)......................*/
 @media only screen and (max-width: 1390px) {
   header {
-    width: 1300px; /* You might not need this if the header should adapt */
+    width: 1300px;
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -75,19 +72,27 @@ a:hover {
   .menu ul {
     transform: translateX(60px);
   }
+
   .container_logo img {
     transform: translateX(-42px);
   }
 }
-/*.................(max-width: 1290px)......................*/
-@media only screen and (max-width: 1290px) {
-  @media only screen and (max-width: 1290px) {
-    header {
-      display: flex;
-      align-items: center;
-    }
+
+/*.................(max-width: 768px)......................*/
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 576px;
+    transform: translateX(412px);
   }
   .menu {
+    display: none;
+  }
+  .container_logo img {
+    /* transform: translateX(-81px);*/
+    width: 300px;
+  }
+  .container_header {
     display: none;
   }
 }

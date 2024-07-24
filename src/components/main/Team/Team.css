@@ -105,3 +105,16 @@
     }
   }
 }
+/*.................(max-width: 1290px)......................*/
+@media only screen and (max-width: 1290px) {
+  .container_crew {
+    width: 100%;
+  }
+  .container_listTeam {
+    box-sizing: border-box;
+    margin-left: 25px;
+  }
+  .title_2 {
+    margin-left: 212px;
+}   
+}
