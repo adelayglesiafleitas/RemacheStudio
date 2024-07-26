@@ -22,10 +22,10 @@ a:hover {
 .container_header {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .container_logo {
-  height: 150px;
   display: flex;
   align-items: center;
   padding: 5px;
@@ -56,4 +56,17 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/*para resolucion de menos de 480*/
+@media only screen and (max-width: 768px) {
+  /* Aquí van las reglas CSS que deseas aplicar */
+  header {
+    width: 1098px;
+    height: 150px;
+  }
+  .container_header {
+    width: 1098px;
+    height: 150px;
+  }
 }
