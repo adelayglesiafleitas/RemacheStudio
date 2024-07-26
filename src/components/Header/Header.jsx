@@ -1,6 +1,5 @@
 import "./Header.css";
 import { useState } from "react";
-import { headerObject } from "../data/ObjetHeader";
 import MenuBurger from "./MenuBurger/MenuBurger.jsx";
 import HeaderNormal from "./HeaderNormal/HeaderNormal.jsx";
 
