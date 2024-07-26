@@ -52,6 +52,7 @@ a:hover {
   margin: 8px;
 }
 
+
 .container_nav_ul {
   display: flex;
   flex-direction: column;
@@ -62,11 +63,36 @@ a:hover {
 @media only screen and (max-width: 768px) {
   /* Aquí van las reglas CSS que deseas aplicar */
   header {
-    width: 1098px;
+    width: 1300px; /* You might not need this if the header should adapt */
     height: 150px;
   }
   .container_header {
-    width: 1098px;
-    height: 150px;
+    justify-content: center;
+  }
+
+  .menu ul {
+    transform: translateX(60px);
+  }
+  .container_logo img {
+    transform: translateX(-42px);
+  }
+}
+
+/*.................(max-width: 768px)......................*/
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 576px;
+    transform: translateX(412px);
+  }
+  .menu {
+    display: none;
+  }
+  .container_logo img {
+    /* transform: translateX(-81px);*/
+    width: 300px;
+  }
+  .container_header {
+    display: none;
   }
 }
