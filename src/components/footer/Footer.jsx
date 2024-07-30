@@ -22,7 +22,7 @@ function Footer() {
         </div>
       </section>
       <section className="container_contac">
-        <div className="container_web_button">
+        <div className="container_footer_button ">
           <a href="">
             <LazyLoad>
               <img src={Facebook} alt="icon de Facebook" />
@@ -30,17 +30,25 @@ function Footer() {
           </a>
           <a href="">
             <LazyLoad>
-              <img src={Instagram} alt="icon de Instagram" />
+              <img
+                className="img_button"
+                src={Instagram}
+                alt="icon de Instagram"
+              />
             </LazyLoad>
           </a>
           <a href="">
             <LazyLoad>
-              <img src={Youtube} alt="icon de Youtube" />
+              <img className="img_button" src={Youtube} alt="icon de Youtube" />
             </LazyLoad>
           </a>
           <a href="">
             <LazyLoad>
-              <img src={Linkedin} alt="icon de Linkedin" />
+              <img
+                className="img_button"
+                src={Linkedin}
+                alt="icon de Linkedin"
+              />
             </LazyLoad>
           </a>
         </div>

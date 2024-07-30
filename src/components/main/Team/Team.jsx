@@ -1,11 +1,12 @@
 import { Team } from "../../data/Team.js";
+import { useEffect } from "react";
 import "./Team.css";
 import LazyLoad from "react-lazy-load";
-function Crew({ setCV, setWorker }) {
+function Crew({ cV, setCV, setWorker }) {
   const handleSetCv = (index) => {
-    setCV(true);
-    setWorker(index);
-    window.scrollTo(0, 0);
+    setCV(true); // Show the CV
+    window.scrollTo(0, 0); // Scroll to the top of the page
+    setWorker(index); // Set the active worker by index
   };
 
   return (

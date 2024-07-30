@@ -45,16 +45,8 @@ function Proyectos3d() {
                 <p className="encode_sans_condensed_bold film_title">
                   {item.name}
                 </p>
-                {item.dir.map((item, index) => (
-                  <p
-                    className="encode_sans_condensed_medium film_dir"
-                    key={index}
-                  >
-                    {item}
-                  </p>
-                ))}
                 <p className="encode_sans_condensed_medium film_dir">
-                  {item.time}
+                  {item.text}
                 </p>
               </div>
             </div>

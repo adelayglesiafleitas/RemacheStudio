@@ -13,7 +13,7 @@
   gap: 11px;
 }
 .container_films_baner_BG {
-  width: 739px;
+  width: 820px;
   height: 203px;
   background-color: transparent;
   background-image: url(/src/assets/stuf/main/us/baner.png);
@@ -76,5 +76,5 @@ h3 {
 }
 .film_dir {
   font-size: 25px;
-  width: 219px;
+  width: 205px;
 }

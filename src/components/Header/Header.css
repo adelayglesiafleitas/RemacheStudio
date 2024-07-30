@@ -28,7 +28,7 @@ a:hover {
 .container_logo {
   display: flex;
   align-items: center;
-  padding: 5px;
+
   transform: translateX(40px);
 }
 
@@ -58,12 +58,25 @@ a:hover {
   align-items: center;
 }
 
-/*para resolucion de menos de 480*/
-@media only screen and (max-width: 768px) {
-  /* Aquí van las reglas CSS que deseas aplicar */
-}
+/*resposive 480*/
 
-/*.................(max-width: 768px)......................*/
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 481px) {
+  header {
+    width: 480px;
+  }
+  .container_logo img {
+    width: 90px;
+  }
+  .container_header {
+    width: 480px;
+  }
+  .menu ul {
+    transform: translateX(0px);
+  }
+  .menu {
+    transform: translatey(0px);
+  }
+  a {
+    font-size: 17px;
+  }
 }

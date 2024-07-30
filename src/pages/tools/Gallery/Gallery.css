@@ -1,10 +1,11 @@
 .gallery {
   margin-top: 150px;
+  
 }
 .gallery_button {
   background-color: transparent;
   border: none;
   cursor: pointer;
   transition: transform 0.4s ease-out;
-  transform: translate(617px, -932px);
+  transform: translate(1283px, -951px);
 }

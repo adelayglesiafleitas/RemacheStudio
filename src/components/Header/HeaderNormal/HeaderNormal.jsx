@@ -7,11 +7,12 @@ import { headerObject } from "../../data/ObjetHeader";
 import { Link } from "react-router-dom";
 import LazyLoad from "react-lazy-load";
 import Logo from "../../../assets/stuf/logos/REMACHEsudio LOGO Blanco.png";
+import LogoResponsive from "../../../assets/stuf/logos/REMACHEsudio LOGO_resposive.png";
 
 function HeaderNormal({ displayBurger, setDisplayBurger }) {
   return (
     <div className="container_header">
-      <div className="container_logo">       
+      <div className="container_logo">
         <div
           style={{
             transform: !displayBurger

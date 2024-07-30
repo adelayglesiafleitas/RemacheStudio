@@ -22,12 +22,12 @@ const Gallery = ({ setVisualGallery, fotosArray }) => {
     <>
       <div className="gallery">
         <ImageGallery items={images} />
+        <button className="gallery_button" onClick={handleclick}>
+          <LazyLoad>
+            <img src={close} alt="icono de back" />
+          </LazyLoad>
+        </button>
       </div>
-      <button className="gallery_button" onClick={handleclick}>
-        <LazyLoad>
-          <img src={close} alt="icono de back" />
-        </LazyLoad>
-      </button>
     </>
   );
 };

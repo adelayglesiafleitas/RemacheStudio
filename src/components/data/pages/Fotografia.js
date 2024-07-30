@@ -1,9 +1,9 @@
-import bigbros from "../../../assets/stuf/pages/Fotografia/FOTOS FOTOGRAFIA/05 TRABAJOS FOTOGRAFIA copy_0000s_0000_BIG BROS.jpg";
-import denis from "../../../assets/stuf/pages/Fotografia/FOTOS FOTOGRAFIA/05 TRABAJOS FOTOGRAFIA copy_0000s_0001_DENYS RAMOS.jpg";
-import dados from "../../../assets/stuf/pages/Fotografia/FOTOS FOTOGRAFIA/05 TRABAJOS FOTOGRAFIA copy_0000s_0002_DADOR.jpg";
-import ana from "../../../assets/stuf/pages/Fotografia/FOTOS FOTOGRAFIA/05 TRABAJOS FOTOGRAFIA copy_0000s_0003_LA FRANJA TEATRAL.jpg";
-import festival from "../../../assets/stuf/pages/Fotografia/FOTOS FOTOGRAFIA/05 TRABAJOS FOTOGRAFIA copy_0000s_0004_ISLA VERDE.jpg";
-import toirac from "../../../assets/stuf/pages/Fotografia/FOTOS FOTOGRAFIA/05 TRABAJOS FOTOGRAFIA copy_0000s_0005_ANGEL TOIRAC.jpg";
+import bigbros from "../../../assets/stuf/pages/Fotografia/05 TRABAJOS FOTOGRAFIA copy_0000s_0000_BIG BROS.png";
+import denis from "../../../assets/stuf/pages/Fotografia/05 TRABAJOS FOTOGRAFIA copy_0000s_0001_DENYS RAMOS.png";
+import dados from "../../../assets/stuf/pages/Fotografia/05 TRABAJOS FOTOGRAFIA copy_0000s_0002_DADOR.png";
+import ana from "../../../assets/stuf/pages/Fotografia/05 TRABAJOS FOTOGRAFIA copy_0000s_0003_LA FRANJA TEATRAL.png";
+import festival from "../../../assets/stuf/pages/Fotografia/05 TRABAJOS FOTOGRAFIA copy_0000s_0004_ISLA VERDE.png";
+import saudade from "../../../assets/stuf/pages/Fotografia/05 TRABAJOS FOTOGRAFIA copy_0000s_0005_SAUDADE.png";
 
 /*imagenes galeria big bros*/
 import bbImg1 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/bigbros/bigbros001.jpg";
@@ -25,15 +25,15 @@ export let fotografia = [
   },
   {
     name: "Denys Ramos",
-    text: "Fotos para diseño del disco de banda de rock realizado en el hostal Paseo 206",
+    text: "Fotos de estudio para el dossier personal del actor ",
     url: "https://youtu.be/kV90SSCeBvs",
     imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
     image: denis,
     id: 2,
   },
   {
-    name: "Dador",
-    text: "Fotos para diseño del disco de banda de rock realizado en el hostal Paseo 206",
+    name: "Dador 2024",
+    text: "Fotos en exteriores para la marca de ropa Dador y su colección verano de 2024",
     url: "https://youtu.be/kV90SSCeBvs",
     imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
     image: dados,
@@ -41,7 +41,7 @@ export let fotografia = [
   },
   {
     name: "ANA, LA GENTE ESTA MIRANDO LA SANGRE",
-    text: "Dir: Maritza Ceballo Zenia Veigas Sailin Carbonel Yoe Perez 2023 - 105 min.",
+    text: "Fotos para la puesta en escena de La franja teatral dirigida por Agnieska Hernández ",
     url: "https://youtu.be/kV90SSCeBvs",
     imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
     image: ana,
@@ -49,18 +49,18 @@ export let fotografia = [
   },
   {
     name: "Festival isla verde",
-    text: "Dir: Alan Gonzalez 2023 - 105 min.",
+    text: "Fotos en clausura del festival dirigido por Jorge Perugorria donde se presento Silvio Rodríguez",
     url: "https://youtu.be/kV90SSCeBvs",
     imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
     image: festival,
     id: 5,
   },
   {
-    name: "Angel toirac",
-    text: "Dir: Rosa Maria Rodriguez Alan Gonzalez Carolina Fernandez-Vega Yoel Infante Katerine T. Gavilan Sheyla Pool D2023 - 105 min.",
+    name: "Saudade",
+    text: "Fotos para obra de danza de la compañia Persona dirigida por Sandra Rami",
     url: "https://youtu.be/kV90SSCeBvs",
     imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
-    image: toirac,
+    image: saudade,
     id: 6,
   },
 ];

@@ -1,7 +1,10 @@
-import bar_buena_vista from "../../../assets/stuf/pages/publicidad/bar_buena_vista.png";
-import catrina from "../../../assets/stuf/pages/publicidad/catrina.png";
-import no from "../../../assets/stuf/pages/publicidad/no_me_digas_q_no.png";
-import senal from "../../../assets/stuf/pages/publicidad/senal.png";
+import clave from "../../../assets/stuf/pages/DisenoGrafico/06 TRABAJOS DISEÑO GRAFICO copy_0000s_0000_GRAFICO 01.png";
+import whats from "../../../assets/stuf/pages/DisenoGrafico/06 TRABAJOS DISEÑO GRAFICO copy_0000s_0001_GRAFICO 02.png";
+import luzRoja from "../../../assets/stuf/pages/DisenoGrafico/06 TRABAJOS DISEÑO GRAFICO copy_0000s_0002_GRAFICA 03.png";
+import seySer from "../../../assets/stuf/pages/DisenoGrafico/06 TRABAJOS DISEÑO GRAFICO copy_0000s_0003_GRAFICA 04.png";
+import lucas from "../../../assets/stuf/pages/DisenoGrafico/bailando con margot.png06 TRABAJOS DISEÑO GRAFICO copy_0000s_0004_GRAFICA 05.png";
+import danza from "../../../assets/stuf/pages/DisenoGrafico/06 TRABAJOS DISEÑO GRAFICO copy_0000s_0005_GRAFICA 06.png";
+
 /*imagenes galeria*/
 import bbImg1 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/bigbros/bigbros001.jpg";
 import bbImg2 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/bigbros/bigbros002.jpg";
@@ -13,26 +16,26 @@ import bbImg6 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/bigbros/b
 
 export let disenoGrafico = [
   {
-    name: "LA CATRINA",
-    text: "Video Musical al Duo Buena Fe Dirigido por Abel López y Victor López",
+    name: "DISEÑOS DE lOGOS",
+    text: "Recopilación de algunos de nuestros diseños de logos",
     url: "https://youtu.be/kV90SSCeBvs",
-    image: catrina,
+    image: clave,
     imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
     id: 1,
   },
   {
-    name: "Señal 2906",
-    text: "Video Musicalde Dj Seycel Dirigido por Abel López y Victor López",
+    name: "selección de carteles",
+    text: "Muestra de algunos carteles diseñados por nosotros",
     url: "https://youtu.be/kV90SSCeBvs",
-    image: senal,
+    image: whats,
     imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
     id: 2,
   },
   {
-    name: "No me digas que no",
-    text: "Video Musical en Animación 3D de Raul Paz y El Micha Dirigido por Ermitis Blanco",
+    name: "luz roja",
+    text: "Diseño de Catalogo para expo de William Acosta",
     url: "https://youtu.be/kV90SSCeBvs",
-    image: no,
+    image: luzRoja,
     imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
     id: 3,
   },
@@ -40,12 +43,28 @@ export let disenoGrafico = [
     name: "BAR AT BUENA VISTA",
     text: "Spot para espectaculo musical con Lia Rodríguez realizado por Remachestudio junto a Alejandro Menendez",
     url: "https://youtu.be/kV90SSCeBvs",
-    image: bar_buena_vista,
+    image: seySer,
     imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
     id: 4,
   },
+  {
+    name: "Premios lucas 2017",
+    text: "Diseño de grafica para la campaña del premio",
+    url: "https://youtu.be/kV90SSCeBvs",
+    image: lucas,
+    imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
+    id: 5,
+  },
+  {
+    name: "OPEN DANCE AMERICA",
+    text: "Diseño de identidad para el gran premio de ballet",
+    url: "https://youtu.be/kV90SSCeBvs",
+    image: danza,
+    imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
+    id: 6,
+  },
 ];
 export let baner = {
-  title: "GRÁFICA REMACHE",
-  text: "En el mundo de la gráfica REMACHESTUDIO se destaca en los  trabajos de diseños de identidades corporativas y de productos. Realizamos, además, diseños editoriales,  diseños de carteles y portadas discográficas.",
+  title: "DISEÑO GRÁFICO",
+  text: "Remachestudio surge desarrollando este tipo de proyectos desde el 2009 comenzado con los videos musicales que son uno de los trabajos de publicidad que mas ha realizado, tambien destaca la realizacion de spot para productos y eventos",
 };

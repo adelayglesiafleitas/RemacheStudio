@@ -11,166 +11,13 @@ body {
   background-color: rgb(29, 29, 29);
   background-size: 250px;
   background-attachment: fixed;
-  /*
-  display: flex;
-  flex-direction: column;
-  align-items: center;*/
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
   color: white;
 }
 html {
   width: 1400px;
   margin: auto;
 }
-/*
-.pt-sans-regular {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.pt-sans-bold {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.pt-sans-regular-italic {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.pt-sans-bold-italic {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.open_sans_400 {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-.open_sans_800 {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-.open_sans_700 {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-.open_sans_500 {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-.open_sans_600 {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-.open_sans_200 {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-.encode-sans-condensed-thin {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.encode-sans-condensed-extralight {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.encode-sans-condensed-light {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.encode-sans-condensed-regular {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.encode-sans-condensed-medium {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.encode-sans-condensed-semibold {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.encode-sans-condensed-bold {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.encode-sans-condensed-extrabold {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.encode-sans-condensed-black {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.encode_sans_condensed_light {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-.encode_sans_condensed_regular {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.encode_sans_condensed_semibold {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.encode_sans_condensed_bold {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.encode_sans_condensedregular {
-  font-family: "Encode Sans Condensed", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-*/
-
-/**/
 .encode_sans_condensed_medium {
   font-family: "Encode Sans Condensed", sans-serif;
   font-weight: 500;
@@ -187,11 +34,11 @@ html {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-@media only screen and (max-width: 768px) {
-  body {
-    display: flex;
+/*resposive 480*/
+
+@media only screen and (max-width: 481px) {
+  html {
+    width: 480px;
+    margin: auto;
   }
-}
-.menu {
-  display: none;
 }
