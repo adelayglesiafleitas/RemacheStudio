@@ -121,4 +121,46 @@
 .container_button_point {
   transform: translateY(-203px);
 }
-
+@media only screen and (max-width: 420px) {
+  .container_Carousel_texto {
+    width: 330px;
+    transform: translate(0, -452px);
+  }
+  .container_Carousel_texto h2 {
+    margin-left: 0px;
+    font-size: 36px;
+    margin-bottom: 35px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .container_Carousel_texto h3 {
+    /* margin-left: 30px;
+    margin-right: 10px;*/
+    margin: auto;
+    font-size: 19px;
+    padding: 13px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(/src/assets/stuf/main/us/baner2.png);
+  }
+  .button_Back {
+    transform: translate(40px, -118px);
+    display: none;
+  }
+  .button_Next {
+    transform: translate(206px, -118px);
+    display: none;
+  }
+  .button_Next :hover {
+    transform: scale(1);
+  }
+  .button_Back :hover {
+    transform: scale(1);
+  }
+  .list_images {
+    transform: translate(107px, -105px);
+    gap: 33px;
+  }
+  .list_images button {
+    width: 23px;
+    height: 23px;
+  }
+}
