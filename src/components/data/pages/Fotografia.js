@@ -36,7 +36,7 @@ import ana2 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOT
 import ana3 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 04/ANA (3).jpg";
 import ana4 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 04/ANA (4).jpg";
 import ana5 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 04/ANA (5).jpg";
-import ana6 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 04/ANA (6).jpg";
+/*import ana6 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 04/ANA (6).jpg";*/
 /*imagenes galeria ana*/
 /*imagenes galeria ISLA VERDE*/
 import iv1 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 05/ISLA VERDE (1).jpg";
@@ -44,7 +44,7 @@ import iv2 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO
 import iv3 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 05/ISLA VERDE (3).jpg";
 import iv4 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 05/ISLA VERDE (4).jpg";
 import iv5 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 05/ISLA VERDE (5).jpg";
-import iv6 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 05/ISLA VERDE (6).jpg";
+/*import iv6 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 05/ISLA VERDE (6).jpg";*/
 /*imagenes galeria ISLA VERDE*/
 /*imagenes galeria saudade*/
 import saudade1 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 06/SAUDADE (1).jpg";
@@ -52,7 +52,7 @@ import saudade2 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA
 import saudade3 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 06/SAUDADE (3).jpg";
 import saudade4 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 06/SAUDADE (4).jpg";
 import saudade5 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 06/SAUDADE (5).jpg";
-import saudade6 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 06/SAUDADE (6).jpg";
+/*import saudade6 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 06/SAUDADE (6).jpg";*/
 /*imagenes galeria saudade*/
 
 export let fotografia = [
@@ -84,7 +84,7 @@ export let fotografia = [
     name: "ANA, LA GENTE ESTA MIRANDO LA SANGRE",
     text: "Fotos para la puesta en escena de La franja teatral dirigida por Agnieska Hernández ",
     url: "https://youtu.be/kV90SSCeBvs",
-    imgArray: [ana1, ana2, ana3, ana4, ana5, ana6],
+    imgArray: [ana1, ana2, ana3, ana4, ana5],
     image: ana,
     id: 4,
   },
@@ -92,7 +92,7 @@ export let fotografia = [
     name: "Festival isla verde",
     text: "Fotos en clausura del festival dirigido por Jorge Perugorria donde se presento Silvio Rodríguez",
     url: "https://youtu.be/kV90SSCeBvs",
-    imgArray: [iv1, iv2, iv3, iv4, iv5, iv6],
+    imgArray: [iv1, iv2, iv3, iv4, iv5],
     image: festival,
     id: 5,
   },
@@ -100,7 +100,7 @@ export let fotografia = [
     name: "Saudade",
     text: "Fotos para obra de danza de la compañia Persona dirigida por Sandra Rami",
     url: "https://youtu.be/kV90SSCeBvs",
-    imgArray: [saudade1, saudade2, saudade3, saudade4, saudade5, saudade6],
+    imgArray: [saudade1, saudade2, saudade3, saudade4, saudade5],
     image: saudade,
     id: 6,
   },

@@ -42,3 +42,31 @@
   margin-left: 55px;
   margin-top: 32px;
 }
+
+@media only screen and (max-width: 420px) {
+  .container_footer {
+    width: 320px;
+  }
+  .container_info_1 img {
+    transform: translateX(0px);
+    width: 210px;
+  }
+  .container_info_1 {
+    margin-bottom: 10px;
+    transform: translateX(5px);
+  }
+  .container_info_1 p {
+    font-size: 16px;
+    transform: translate(45px, -7px);
+  }
+  .container_footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .container_footer_button {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+    align-items: center;
+  }
+}

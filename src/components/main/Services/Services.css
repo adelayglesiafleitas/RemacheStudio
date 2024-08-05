@@ -48,3 +48,27 @@
   transform: scale(1.2);
 }
 
+@media only screen and (max-width: 420px) {
+  .container_services_cards {
+    width: 330px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 8px;
+  }
+  .container_services {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .container_service_card {
+    height: 100px;
+  }
+  .services_name {
+    font-size: 20px;
+  }
+  .services_text {
+    width: 210px;
+  }
+}

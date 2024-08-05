@@ -73,3 +73,32 @@
 .title_3 {
   font-size: 27px;
 }
+
+@media only screen and (max-width: 420px) {
+  .container_crew {
+    width: 330px;
+    height: 460px;
+  }
+  .container_img {
+    border-radius: 10px;
+    width: 47px;
+    margin-left: 9px;
+  }
+  .container_img img {
+    transform: translateX(-45px);
+  }
+  .container_listTeam {
+    gap: 0px;
+  }
+  .team_container_text {
+    display: none;
+  }
+  .img_worker:hover {
+    transform: scale(1);
+  }
+  .container_title {
+    transform: translate(-205px, -25px);
+    margin-left: 57px;
+    font-size: 15px;
+  }
+}

@@ -6,12 +6,12 @@ import lucas from "../../../assets/stuf/pages/DisenoGrafico/bailando con margot.
 import danza from "../../../assets/stuf/pages/DisenoGrafico/06 TRABAJOS DISEÑO GRAFICO copy_0000s_0005_GRAFICA 06.png";
 
 /*imagenes galeria*/
-import bbImg1 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/bigbros/bigbros001.jpg";
-import bbImg2 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/bigbros/bigbros002.jpg";
-import bbImg3 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/bigbros/bigbros003.jpg";
-import bbImg4 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/bigbros/bigbros004.jpg";
-import bbImg5 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/bigbros/bigbros005.jpg";
-import bbImg6 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/bigbros/bigbros006.jpg";
+import bbImg1 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 01/BIG BROS (1).jpg";
+import bbImg2 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 01/BIG BROS (2).jpg";
+import bbImg3 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 01/BIG BROS (3).jpg";
+import bbImg4 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 01/BIG BROS (4).jpg";
+import bbImg5 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 01/BIG BROS (5).jpg";
+import bbImg6 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERIA FOTO 01/BIG BROS (6).jpg";
 /*imagenes galeria*/
 
 export let disenoGrafico = [
