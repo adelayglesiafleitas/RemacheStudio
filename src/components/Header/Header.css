@@ -48,7 +48,6 @@ a:hover {
 .container_logo {
   margin-left: 50px;
 }
-
 @media only screen and (max-width: 420px) {
   header {
     width: 330px;
@@ -63,7 +62,7 @@ a:hover {
     justify-content: center;
   }
   .menu ul {
-    transform: translate(-440px, -12px);
+    transform: translate(-440px, -11px);
   }
   a {
     font-size: 15px;
