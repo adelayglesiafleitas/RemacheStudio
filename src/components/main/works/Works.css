@@ -152,4 +152,7 @@
     border: none;
     cursor: pointer;
   }
+  .container_peliculas_img {
+    transform: translate(-143px, 0px);
+  }
 }

@@ -46,18 +46,24 @@ a:hover {
 }
 
 .container_logo {
-  transform: translateX(40px);
+  transform: translate(40px, 0x);
 }
 
 @media only screen and (max-width: 420px) {
   header {
     width: 330px;
     height: 100px;
+    position: fixed;
   }
+
   .container_logo img {
     width: 250px;
+    transform: translate(40px, -35px);
   }
   .menu ul {
-    display: none;
+    transform: translate(-440px, -0px);
+  }
+  a {
+    font-size: 15px;
   }
 }

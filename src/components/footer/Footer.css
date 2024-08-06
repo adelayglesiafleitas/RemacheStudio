@@ -46,18 +46,21 @@
 @media only screen and (max-width: 420px) {
   .container_footer {
     width: 320px;
+    height: 150px;
+    justify-content: space-evenly;
+    margin-top: 35px;
   }
   .container_info_1 img {
-    transform: translateX(0px);
-    width: 210px;
+    transform: translate(13px, 10px);
+    width: 288px;
   }
   .container_info_1 {
     margin-bottom: 10px;
-    transform: translateX(5px);
+    transform: translate(-12px);
   }
   .container_info_1 p {
     font-size: 16px;
-    transform: translate(45px, -7px);
+    transform: translate(-4px, -7px);
   }
   .container_footer {
     display: flex;
@@ -68,5 +71,11 @@
     margin-left: 0px;
     margin-top: 0px;
     align-items: center;
+  }
+  .container_info_2 p {
+    display: none;
+  }
+  .container_info_1 p {
+    display: none;
   }
 }

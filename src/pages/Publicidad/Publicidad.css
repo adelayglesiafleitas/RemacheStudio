@@ -4,3 +4,21 @@
   background-image: url(../../assets/stuf/pages/publicidad/baner.jpg);
   background-repeat: no-repeat;
 }
+@media only screen and (max-width: 420px) {
+  .container_publicidad_baner {
+    width: 330px;
+  }
+  .container_films_baner_BG h2 {
+    font-size: 36px;
+    margin-left: 0px;
+  }
+  .container_films_baner_BG h3 {
+    font-size: 19px;
+    margin-left: 0px;
+  }
+  .container_films_baner_BG {
+    width: 330px;
+    height: 259px;
+    transform: translate(0px, 342px);
+  }
+}

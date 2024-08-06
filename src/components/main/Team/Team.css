@@ -77,7 +77,7 @@
 @media only screen and (max-width: 420px) {
   .container_crew {
     width: 330px;
-    height: 460px;
+    height: 355px;
   }
   .container_img {
     border-radius: 10px;
@@ -89,6 +89,7 @@
   }
   .container_listTeam {
     gap: 0px;
+    transform: translate(0px, 40px);
   }
   .team_container_text {
     display: none;
@@ -100,5 +101,8 @@
     transform: translate(-205px, -25px);
     margin-left: 57px;
     font-size: 15px;
+  }
+  .title_2 {
+    transform: translate(0px, 55px);
   }
 }
