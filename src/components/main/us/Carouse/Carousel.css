@@ -7,17 +7,6 @@
 .container_carousel_cut {
   overflow: hidden;
 }
-/*
-@keyframes scaleAnimation {
-  0% {
-    transform: scale(1);
-  }
-
-  100% {
-    transform: scale(1.05);
-  } 
-}
-*/
 .imagen_fondo {
   transition: transform 15s ease-out;
 }
@@ -125,12 +114,17 @@
   .container_Carousel_texto {
     width: 330px;
     transform: translate(0, -452px);
+    background-image: none;
   }
   .container_Carousel_texto h2 {
     margin-left: 0px;
     font-size: 36px;
     margin-bottom: 35px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px;
   }
   .container_Carousel_texto h3 {
     /* margin-left: 30px;
@@ -138,8 +132,12 @@
     margin: auto;
     font-size: 19px;
     padding: 13px;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-image: url(/src/assets/stuf/main/us/baner2.png);
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: none;
+    display: flex;
+    justify-content: flex-start;
+    /*background-color: transparent; */
   }
   .button_Back {
     transform: translate(40px, -118px);
@@ -156,14 +154,17 @@
     transform: scale(1);
   }
   .list_images {
-    transform: translate(107px, -105px);
+    transform: translate(107px, -135px);
     gap: 33px;
   }
   .list_images button {
-    width: 23px;
-    height: 23px;
+    width: 15px;
+    height: 15px;
   }
   .container_carousel_cut {
     width: 330px;
+  }
+  .container_carousel_cut img {
+    transform: translate(-250px, 0px) scale(0.8);
   }
 }

@@ -73,9 +73,17 @@
     align-items: center;
   }
   .container_info_2 p {
-    display: none;
+    /* display: none;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translatey(0px);
+    font-size: 15px;
   }
   .container_info_1 p {
     display: none;
+  }
+  .container_footer_button img {
+    width: 40px;
   }
 }

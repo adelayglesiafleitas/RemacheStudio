@@ -122,7 +122,8 @@
   .container_peliculas {
     margin: 3px;
     overflow: hidden;
-    border-radius: 30px;
+    border-radius: 10px;
+    height: 270px;
   }
   .container_peliculas_texto h2 {
     font-size: 16px;
@@ -138,7 +139,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transform: translate(-11px, -197px);
+    transform: translate(-11px, -407px);
     margin-left: 15px;
     width: 0px;
     height: 183px;
@@ -146,13 +147,10 @@
     position: relative;
   }
   .container_list_Trabajos button {
-    height: 23px;
-    width: 23px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
+    height: 15px;
+    width: 15px;
   }
   .container_peliculas_img {
-    transform: translate(-143px, 0px);
+    transform: translate(-143px, -142px) scale(0.5);
   }
 }

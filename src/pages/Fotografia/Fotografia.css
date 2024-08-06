@@ -65,6 +65,9 @@
   .container_Fotografia_baner {
     width: 330px;
   }
+  .container_Fotografia {
+    width: 330px;
+  }
   .container_films_baner_BG h2 {
     font-size: 36px;
     margin-left: 0px;
@@ -88,4 +91,12 @@
   .film_dir {
     display: none;
   }
+
+
+  .container_Fotografia_card img {
+    width: 124px;
+    height: 181px;
+  }
+
+
 }
