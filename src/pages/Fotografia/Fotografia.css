@@ -68,35 +68,38 @@
   .container_Fotografia {
     width: 330px;
   }
-  .container_films_baner_BG h2 {
+  .container_Fotografia_baner_BG h2 {
     font-size: 36px;
     margin-left: 0px;
   }
-  .container_films_baner_BG h3 {
+  .container_Fotografia_baner_BG h3 {
     font-size: 19px;
     margin-left: 0px;
   }
-  .container_films_baner_BG {
+  .container_Fotografia_baner_BG {
     width: 330px;
     height: 259px;
     transform: translate(0px, 342px);
   }
-  .container_films {
+  .container_Fotografia {
     width: 330px;
-  }
-
-  .film_title {
+  .container_text_films {
     display: none;
   }
-  .film_dir {
-    display: none;
+  .container_Fotografia_card {
+    margin-bottom: 31px;
+    margin-right: 0px;
+    margin-left: 18px;
   }
-
 
   .container_Fotografia_card img {
     width: 124px;
     height: 181px;
   }
+  .container_Fotografia {
+    margin-top: 20px;
+    gap: 0px;
+  }
+}}
 
-
-}
+  

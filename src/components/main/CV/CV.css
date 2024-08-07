@@ -19,7 +19,6 @@
   background-color: rgb(69, 69, 69);
   width: 960px;
   height: 800px;
-  
 }
 .container_CV_rigth button {
   background-color: transparent;
@@ -90,4 +89,67 @@
 }
 .container_web_button {
   gap: 18px;
+}
+@media only screen and (max-width: 420px) {
+  .container_CV {
+    width: 320px;
+    flex-direction: column;
+    margin-top: 85px;
+  }
+  .container_CV_left {
+    background-color: rgb(255, 192, 0);
+    width: 320px;
+    height: 437px;
+  }
+  .container_CV_left img {
+    margin-left: 0px;
+    width: 300px;
+  }
+  .container_CV_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_CV_left h2 {
+    margin-left: 0px;
+    width: 320px;
+  }
+  .container_CV_left h2 {
+    margin-top: 10px;
+  }
+  .title_2 {
+    transform: translate(0px, 0px);
+  }
+  .container_CV_rigth {
+    background-color: rgb(69, 69, 69);
+    width: 320px;
+    height: 437px;
+  }
+  .container_CV_rigth_CV {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .title_2 {
+    font-size: 27px;
+  }
+  .container_CV_rigth p,
+  .container_CV_rigth button {
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+  .container_CV_rigth_name {
+    margin-top: 27px;
+    color: rgb(255, 192, 0);
+    font-size: 25px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  .container_CV_rigth button {
+    display: none;
+  }
 }

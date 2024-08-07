@@ -32,3 +32,28 @@
 .container_type_services_left img {
   width: 510px;
 }
+
+@media only screen and (max-width: 420px) {
+  .container_type_services {
+    width: 320px;
+    height: 800px;
+    margin-top: 82px;
+    flex-direction: column;
+  }
+  .container_type_services_left img {
+    width: 320px;
+  }
+  .container_type_services_rigth {
+    width: 320px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .container_type_services_rigth p {
+    margin-left: 48px;
+    margin-right: 75px;
+    margin-top: 16px;
+}
+}

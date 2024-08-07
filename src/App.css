@@ -40,4 +40,7 @@ html {
   html {
     width: 320px;
   }
+  body {
+    margin: auto;
+  }
 }
