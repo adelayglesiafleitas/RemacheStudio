@@ -12,7 +12,7 @@ function Crew({ cV, setCV, setWorker }) {
   return (
     <section className="container_crew " id="Equipo">
       <div className="container_title">
-        <h2 className="encode_sans_condensed_bold title_2">
+        <h2 className="encode_sans_condensed_bold title_2 title_crew_2">
           EQUIPO REMACHESTUDIO
         </h2>
       </div>

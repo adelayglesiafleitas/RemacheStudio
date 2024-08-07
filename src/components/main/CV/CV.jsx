@@ -15,7 +15,7 @@ function CV({ worker, setCV, cV }) {
   return (
     <section className="container_CV  ">
       <div className="container_CV_left animate__animated animate__bounceInLeft ">
-        <h2 className=" encode_sans_condensed_bold  title_2 ">
+        <h2 className=" encode_sans_condensed_bold  title_cv ">
           EQUIPO REMACHESTUDIO
         </h2>
         <LazyLoad>

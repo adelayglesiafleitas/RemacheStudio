@@ -90,6 +90,9 @@
 .container_web_button {
   gap: 18px;
 }
+.title_cv {
+  color: black;
+}
 @media only screen and (max-width: 420px) {
   .container_CV {
     width: 320px;
@@ -117,7 +120,7 @@
   .container_CV_left h2 {
     margin-top: 10px;
   }
-  .title_2 {
+  .title_cv {
     transform: translate(0px, 0px);
   }
   .container_CV_rigth {
