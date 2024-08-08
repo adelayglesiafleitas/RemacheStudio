@@ -17,7 +17,9 @@ body {
 html {
   width: 1400px;
   margin: auto;
+  overflow-x: hidden; /* Evita el desplazamiento */
 }
+
 .encode_sans_condensed_medium {
   font-family: "Encode Sans Condensed", sans-serif;
   font-weight: 500;
