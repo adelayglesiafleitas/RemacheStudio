@@ -63,7 +63,7 @@
   color: rgb(255, 192, 0);
   font-size: 18px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-bottom: 11px;
   font-style: italic;
 }
@@ -114,7 +114,7 @@
     align-items: center;
   }
   .container_CV_left h2 {
-    margin-left: 0px;
+    margin-left: 22px;
     width: 320px;
   }
   .container_CV_left h2 {
@@ -154,5 +154,12 @@
   }
   .container_CV_rigth button {
     display: none;
+  }
+  .container_CV_rigth_number {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  .container_CV_rigth_mail {
+    margin-bottom: 11px;
   }
 }

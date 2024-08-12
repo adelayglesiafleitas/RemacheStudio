@@ -6,7 +6,7 @@ import Bety from "../../assets/stuf/main/trabajadores/bety.png";
 
 export let Team = [
   {
-    name: "VÍCTOR LÓPEZ ",
+    name: "VICTOR LÓPEZ ",
     position: "Director de Remachestudio y Realizador",
     imagen: Victor,
     number: "+53 5344 7436",

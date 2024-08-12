@@ -20,10 +20,10 @@ const Gallery = ({ setVisualGallery, fotosArray }) => {
   return (
     <>
       <div className="gallery">
-        <ImageGallery items={images} />
+        <ImageGallery items={images} />{" "}
         <button className="gallery_button" onClick={handleclick}>
           <LazyLoad>
-            <img src={close} alt="icono de back" />
+            <img className="close_gallery" src={close} alt="icono de back" />
           </LazyLoad>
         </button>
       </div>

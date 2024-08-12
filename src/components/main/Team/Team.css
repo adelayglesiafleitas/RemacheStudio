@@ -90,7 +90,8 @@
   }
   .container_listTeam {
     gap: 0px;
-    transform: translate(0px, 40px);
+    transform: translate(22px, 50px) scale(1.1);
+    width: 270px;
   }
   .team_container_text {
     display: none;
@@ -105,5 +106,9 @@
   }
   .title_crew_2 {
     transform: translate(0px, 35px);
+  }
+  .img_worker {
+    transition: transform 0.8s ease-out;
+    width: 215px;
   }
 }

@@ -1,15 +1,32 @@
 .gallery {
   margin-top: 150px;
+  display: flex;
+  flex-direction: column-reverse;
 }
-.image-gallery-play-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.4s ease-out;
-  transform: translate(1283px, -951px);
-}
+
 .image-gallery-left-nav .image-gallery-svg,
 .image-gallery-right-nav .image-gallery-svg {
   height: 37px;
   width: 24px;
+}
+.gallery button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.4s ease-out;
+  margin: 10px;
+}
+.close_gallery {
+  transform: translate(624px, 0px);
+}
+@media only screen and (max-width: 420px) {
+  .close_gallery {
+    width: 21px;
+  }
+  .close_gallery {
+    transform: translate(139px, 0px);
+  }
+  .gallery {
+    margin-top: 83px;
+  }
 }
