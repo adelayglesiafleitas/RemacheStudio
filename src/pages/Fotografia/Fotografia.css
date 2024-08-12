@@ -52,7 +52,7 @@
   height: 543px;
   transition: transform 1s ease-out;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 .container_Fotografia_card img:hover {
@@ -64,9 +64,11 @@
 @media only screen and (max-width: 420px) {
   .container_Fotografia_baner {
     width: 330px;
+    height: 515px;
   }
   .container_Fotografia {
     width: 330px;
+    margin-top: 45px;
   }
   .container_Fotografia_baner_BG h2 {
     font-size: 36px;
@@ -81,11 +83,7 @@
     height: 259px;
     transform: translate(0px, 342px);
   }
-  .container_Fotografia {
-    width: 330px;
-  .container_text_films {
-    display: none;
-  }
+
   .container_Fotografia_card {
     margin-bottom: 31px;
     margin-right: 0px;
@@ -93,13 +91,7 @@
   }
 
   .container_Fotografia_card img {
-    width: 124px;
-    height: 181px;
+    width: 135px;
+    height: 197px;
   }
-  .container_Fotografia {
-    margin-top: 20px;
-    gap: 0px;
-  }
-}}
-
-  
+}

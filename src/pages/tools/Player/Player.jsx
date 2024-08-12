@@ -13,14 +13,14 @@ function Player({ url, setDisplayPlayer }) {
   };
   return (
     <div className="play_bg_dark">
+      <button onClick={handleclick}>
+        <LazyLoad>
+          <img className="close" src={close} alt="icono de back" />
+        </LazyLoad>
+      </button>
       <div className="container_player">
         <ReactPlayer url={url} controls playing height="100%" width="100%" />
       </div>
-      <button onClick={handleclick}>
-        <LazyLoad>
-          <img src={close} alt="icono de back" />
-        </LazyLoad>
-      </button>
     </div>
   );
 }

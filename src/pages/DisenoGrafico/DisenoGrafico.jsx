@@ -27,8 +27,8 @@ function DisenoGrafico() {
         <>
           <div className="container_DisenoGrafico_baner ">
             <div className="container_films_baner_BG">
-              <h2 className="open_sans_600">{baner.title}</h2>
-              <h3 className="open_sans_200">{baner.text}</h3>
+              <h2 className="encode_sans_condensed_bold">{baner.title}</h2>
+              <h3 className="encode_sans_condensed_medium">{baner.text}</h3>
             </div>
           </div>
 

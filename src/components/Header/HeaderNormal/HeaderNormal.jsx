@@ -7,7 +7,7 @@ import { headerObject } from "../../data/ObjetHeader";
 import { Link } from "react-router-dom";
 import LazyLoad from "react-lazy-load";
 import Logo from "../../../assets/stuf/logos/REMACHEsudio LOGO Blanco.png";
-import LogoResponsive from "../../../assets/stuf/iconos/RE_LOGO-01.svg";
+import Logosvg from "../../../assets/stuf/iconos/REMACHE_LOGO-01.svg";
 
 function HeaderNormal({ displayBurger, setDisplayBurger }) {
   return (

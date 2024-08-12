@@ -71,4 +71,7 @@
   .services_text {
     width: 210px;
   }
+  .container_services_title {
+    margin-bottom: 17px;
+  }
 }

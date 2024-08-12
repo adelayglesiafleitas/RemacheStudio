@@ -15,7 +15,6 @@ const Gallery = ({ setVisualGallery, fotosArray }) => {
   const images = fotosArray.map((image) => ({
     original: image,
     thumbnail: image,
-    description: "bigbros galery",
   }));
 
   return (

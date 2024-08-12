@@ -61,11 +61,11 @@ function CV({ worker, setCV, cV }) {
             </LazyLoad>
           </a>
         </div>
-        <button className="container_CV_rigth_button" onClick={handleClose}>
+        {/*<button className="container_CV_rigth_button" onClick={handleClose}>
           <LazyLoad>
             <img src={close} alt="imagen close" />
           </LazyLoad>
-        </button>
+        </button>*/}
       </div>
     </section>
   );

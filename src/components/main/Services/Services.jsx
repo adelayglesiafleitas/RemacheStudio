@@ -8,7 +8,7 @@ function Services({ setService, setServiceSelect }) {
   };
   return (
     <section className="container_services " id="Servicios">
-      <p className="encode_sans_condensed_bold services_title animate__animated animate__bounceIn">
+      <p className="encode_sans_condensed_bold services_title animate__animated animate__bounceIn container_services_title">
         Servicios
       </p>
       <div className="container_services_cards ">

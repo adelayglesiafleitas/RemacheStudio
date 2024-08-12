@@ -12,7 +12,7 @@ import Publicidad from "./pages/Publicidad/Publicidad.jsx";
 import MotionGraphic from "./pages/MotionGraphic/MotionGraphic.jsx";
 import DisenoGrafico from "./pages/DisenoGrafico/DisenoGrafico.jsx";
 import Proyectos3d from "./pages/Proyectos3d/Proyectos3d.jsx";
-import { useState, useEffect } from "react";
+
 function App() {
   return (
     <Router>

@@ -1,11 +1,15 @@
 .gallery {
   margin-top: 150px;
-  
 }
-.gallery_button {
+.image-gallery-play-button {
   background-color: transparent;
   border: none;
   cursor: pointer;
   transition: transform 0.4s ease-out;
   transform: translate(1283px, -951px);
+}
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 37px;
+  width: 24px;
 }

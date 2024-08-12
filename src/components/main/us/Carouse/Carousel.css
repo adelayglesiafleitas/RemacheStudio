@@ -113,7 +113,7 @@
 @media only screen and (max-width: 420px) {
   .container_Carousel_texto {
     width: 330px;
-    transform: translate(0, -452px);
+    transform: translate(0, -550px);
     background-image: none;
   }
   .container_Carousel_texto h2 {
@@ -155,16 +155,19 @@
   }
   .list_images {
     transform: translate(107px, -135px);
-    gap: 33px;
+    gap: 40px;
   }
   .list_images button {
-    width: 15px;
-    height: 15px;
+    width: 8px;
+    height: 8px;
   }
   .container_carousel_cut {
     width: 330px;
   }
   .container_carousel_cut img {
     transform: translate(-250px, 0px) scale(0.8);
+  }
+  .imagen_fondo:hover {
+    transform: scale(0);
   }
 }

@@ -113,6 +113,7 @@
 @media only screen and (max-width: 420px) {
   .Trabajos {
     width: 330px;
+    height: 363px;
   }
   .container_listTrabajos {
     width: 330px;
@@ -147,10 +148,17 @@
     position: relative;
   }
   .container_list_Trabajos button {
-    height: 15px;
-    width: 15px;
+    height: 8px;
+    width: 8px;
   }
   .container_peliculas_img {
     transform: translate(-143px, -142px) scale(0.5);
+    transition: none;
+  }
+  .container_list_Trabajos {
+    gap: 40px;
+  }
+  .container_peliculas_img:hover {
+    transform: scale(none);
   }
 }

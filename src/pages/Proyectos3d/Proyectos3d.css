@@ -63,20 +63,21 @@
 @media only screen and (max-width: 420px) {
   .container_proyectos3d_baner {
     width: 330px;
+    height: 515px;
     background-position: -205px;
   }
   .container_films_baner_BG h2 {
     font-size: 36px;
-    margin-left: 0px;
+    margin-left: 10px;
   }
   .container_films_baner_BG h3 {
     font-size: 19px;
-    margin-left: 0px;
+    margin-left: 10px;
   }
   .container_films_baner_BG {
     width: 330px;
     height: 259px;
-    transform: translate(0px, 342px);
+    transform: translate(0px, 165px);
   }
   .container_film_card img {
     width: 124px;

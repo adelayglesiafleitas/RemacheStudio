@@ -54,7 +54,7 @@
   height: 497px;
   transition: transform 1s ease-out;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .container_film_card img:hover {
@@ -82,21 +82,23 @@ h3 {
 @media only screen and (max-width: 420px) {
   .container_films_baner {
     width: 330px;
+    height: 515px;
   }
   .container_films_baner_BG h2 {
     font-size: 36px;
-    margin-left: 0px;
+    margin-left: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   .container_films_baner_BG h3 {
+    width: 285px;
     font-size: 19px;
-    margin-left: 0px;
+    margin-left: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   .container_films_baner_BG {
     width: 330px;
     height: 259px;
-    transform: translate(0px, 342px);
+    transform: translate(0px, 165px);
     background-image: none;
   }
   .container_films {
@@ -108,5 +110,15 @@ h3 {
   }
   .film_dir {
     display: none;
+  }
+  .container_film_card img {
+    width: 135px;
+    height: 210px;
+  }
+  .container_film_card {
+    margin-bottom: 35px;
+  }
+  .container_films {
+    margin-top: 35px;
   }
 }

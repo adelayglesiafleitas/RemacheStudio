@@ -76,7 +76,7 @@ import saudade12 from "../../../assets/stuf/pages/Fotografia/GALERIA FOTO/GALERI
 
 export let fotografia = [
   {
-    name: "Banda Big bros",
+    name: "Banda Reversible",
     text: "Fotos para diseño del disco de banda de rock realizado en el hostal Paseo 206",
     url: "https://youtu.be/kV90SSCeBvs",
     imgArray: [bbImg1, bbImg2, bbImg3, bbImg4, bbImg5, bbImg6],
