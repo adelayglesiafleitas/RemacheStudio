@@ -54,7 +54,7 @@
   height: 497px;
   transition: transform 1s ease-out;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .container_film_card img:hover {
@@ -67,7 +67,7 @@
   color: rgb(255, 192, 0);
   text-transform: uppercase;
   text-align: left;
-  font-size: 46px;
+  font-size: 40px;
   transform: translateY(-14px);
 }
 .container_films_baner_BG h2,
