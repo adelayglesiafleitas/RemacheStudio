@@ -29,43 +29,69 @@ function CV({ worker, setCV, cV }) {
         <p className="container_CV_rigth_name  encode_sans_condensed_bold  ">
           {Team[worker].name}
         </p>
-        <p className="container_CV_rigth_number encode_sans_condensed_medium">
-          {Team[worker].number}
-        </p>
-        <p className="container_CV_rigth_mail  encode_sans_condensed_medium">
-          {Team[worker].correo}
-        </p>
-        <p className="container_CV_rigth_CV  encode_sans_condensed_medium">
-          {Team[worker].cv}
-        </p>
+        {Team[worker].number != "no" ? (
+          <p className="container_CV_rigth_number encode_sans_condensed_medium">
+            {Team[worker].number}
+          </p>
+        ) : (
+          ""
+        )}
+        {Team[worker].correo != "no" ? (
+          <p className="container_CV_rigth_mail  encode_sans_condensed_medium">
+            {Team[worker].correo}
+          </p>
+        ) : (
+          ""
+        )}
+        {Team[worker].correo != "no" ? (
+          <p className="container_CV_rigth_CV  encode_sans_condensed_medium">
+            {Team[worker].cv}
+          </p>
+        ) : (
+          ""
+        )}
 
         <div className="container_web_button">
-          <a href={Team[worker].facebook}>
-            <LazyLoad>
-              <img src={facebook} alt="icono facebook" />
-            </LazyLoad>
-          </a>
-          <a href={Team[worker].instagram}>
-            <LazyLoad>
-              <img src={instagram} alt="icono instagram" />
-            </LazyLoad>
-          </a>
-          <a href={Team[worker].youtube}>
-            <LazyLoad>
-              <img src={youtube} alt="icono youtube" />
-            </LazyLoad>
-          </a>
-          <a href={Team[worker].linked}>
-            <LazyLoad>
-              <img src={linkedin} alt="icono linkedin" />
-            </LazyLoad>
-          </a>
+          {Team[worker].facebook != "no" ? (
+            <a href={Team[worker].facebook}>
+              <LazyLoad>
+                <img src={facebook} alt="icono facebook" />
+              </LazyLoad>
+            </a>
+          ) : (
+            ""
+          )}
+
+          {Team[worker].instagram != "no" ? (
+            <a href={Team[worker].instagram}>
+              <LazyLoad>
+                <img src={instagram} alt="icono instagram" />
+              </LazyLoad>
+            </a>
+          ) : (
+            ""
+          )}
+
+          {Team[worker].youtube != "no" ? (
+            <a href={Team[worker].youtube}>
+              <LazyLoad>
+                <img src={youtube} alt="icono youtube" />
+              </LazyLoad>
+            </a>
+          ) : (
+            ""
+          )}
+
+          {Team[worker].linked != "no" ? (
+            <a href={Team[worker].linked}>
+              <LazyLoad>
+                <img src={linkedin} alt="icono linkedin" />
+              </LazyLoad>
+            </a>
+          ) : (
+            ""
+          )}
         </div>
-        {/*<button className="container_CV_rigth_button" onClick={handleClose}>
-          <LazyLoad>
-            <img src={close} alt="imagen close" />
-          </LazyLoad>
-        </button>*/}
       </div>
     </section>
   );

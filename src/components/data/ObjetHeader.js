@@ -10,18 +10,28 @@ export let headerObject = [
     id: 2,
   },
   {
-    type: "Equipo",
+    type: "DemoVfx",
     to: "/",
     id: 3,
   },
   {
-    type: "Servicios",
+    type: "Equipo",
     to: "/",
     id: 4,
   },
   {
-    type: "Contactos",
+    type: "DemoMG",
     to: "/",
     id: 5,
+  },
+  {
+    type: "Servicios",
+    to: "/",
+    id: 6,
+  },
+  {
+    type: "Contactos",
+    to: "/",
+    id: 7,
   },
 ];
